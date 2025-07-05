@@ -1,0 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+@import "tailwindcss";
+@theme {
+    --font-bitcount:"Bitcount Grid Double", system-ui;
+}
+
+body{
+ background-color: rgba(2, 2, 2, 0.952);
+}
