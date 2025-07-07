@@ -6,7 +6,7 @@ import { Twitter } from 'lucide-react'
 import { Instagram } from 'lucide-react'
 const Footer = () => {
   return (
-    <div className='bottom-0 flex items-center w-full text-white'>
+    <div className='bottom-0 flex items-center w-full text-white mt-1'>
       <div className='flex gap-4 ml-auto mr-auto mb-2'>
         <a href="https://facebook.com" target='_blank'><Facebook/></a>
         <a href="https://github.com" target='_blank'><Github/></a>
