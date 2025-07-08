@@ -1,13 +1,15 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
+import { MoveRight } from "lucide-react";
+import { Link } from "react-router-dom";
 const Projects = () => {
   return (
     <div className="">
-      <div className="md:w-3xl w-1xl mr-auto ml-auto p-4 ">
+      <div className="md:w-3xl w-1xl mr-auto ml-auto p-4  md:p-0">
         <div className="font-bitcount py-5 font-bold text-[2rem] md:text-5xl text-center">
           <h1>My Projects</h1>
         </div>
-        <div className="space-y-3">
+        <div className="space-y-3 mb-2">
           <ProjectCard
             title={"Guitar E-Commerce Website"}
             description={
@@ -50,6 +52,9 @@ const Projects = () => {
             sourceCode={"https://github.com/jwesparcia/ContactManagement"}
             githubUrl={"https://github.com/jwesparcia/ContactManagement"}
           />
+        </div>
+        <div className=" p-2.5 w-2xs text-[0.9rem] ml-auto mr-auto flex justify-center font-bitcount md:text-[1.4rem] md:p-0 ">
+          <Link to={"/contact"} className="flex gap-1.5 cursor-pointer">Contact me <MoveRight className="size-5 md:size-7 md:mt-0.5" /></Link>
         </div>
       </div>
     </div>
