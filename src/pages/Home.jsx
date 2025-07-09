@@ -5,8 +5,8 @@ import { MoveRight } from "lucide-react";
 const Home = () => {
   return (
     <>
-      <div className="text-white flex">
-        <div className=" w-3xl ml-auto mr-auto text-left pl-3">
+      <div className="text-white  ">
+        <div className=" w-auto ml-auto mr-auto text-left pl-3 md:w-3xl">
           <div className="p-7 text-2xl md:text-5xl font-bitcount font-medium  text-center">
             <h1>I'm Jhune Wally Esparcia</h1>
           </div>

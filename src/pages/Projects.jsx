@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   return (
     <div className="">
-      <div className="md:w-3xl w-1xl mr-auto ml-auto p-4  md:p-0">
+      <div className="md:w-3xl w-auto mr-auto ml-auto p-4  md:p-0">
         <div className="font-bitcount py-5 font-bold text-[2rem] md:text-5xl text-center">
           <h1>My Projects</h1>
         </div>

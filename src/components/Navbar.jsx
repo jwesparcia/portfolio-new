@@ -1,13 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import BurgerMenu from "./BurgerMenu";
+
+
 const Navbar = () => {
+
   return (
-    <nav className="p-3  font-bitcount font-bold text-[1.1rem]text-amber-50 ">
-      <ul className="flex gap-15">
+    <nav className="p-3  font-bitcount font-bold text-[1.1rem]text-amber-50">
+      <ul className="flex gap-15 ">
         <Link to={"/"} className="mr-auto ml-15">
           <img src="./src/assets/me.jpg.png" alt="Logo" width={"45px"} />
         </Link>
-        <div className="flex flex-col justify-end md:flex-row md:gap-10 items-center mr-15 ">
+        <div className="md:flex md:flex-row justify-end md:gap-10 items-center mr-15 hidden">
           <li>
             <Link to={"/"}>Home</Link>
           </li>
@@ -21,7 +25,13 @@ const Navbar = () => {
             <Link to={"/contact"}>Contacts</Link>
           </li>
         </div>
+
+        <div className="flex items-center">
+           <BurgerMenu />
+        </div>
+        
       </ul>
+     
     </nav>
   );
 };
