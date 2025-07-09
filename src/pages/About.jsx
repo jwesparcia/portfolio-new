@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div className="flex">
-      <div className="-red-400 w-auto ml-auto mr-auto text-left grid md:grid-cols-2 md:w-3xl">
-        <div className="font-bitcount pl-3 font-medium">
+      <div className="-red-400 w-auto ml-auto mr-auto text-left grid md:grid-cols-2 md:w-3xl  space-x-10">
+        <div className="font-bitcount pl-3 font-medium ">
           <div className="text-2xl md:text-5xl my-10">
             <h1>About Me</h1>
           </div>
@@ -51,7 +51,7 @@ const About = () => {
         <div className=" pl-3">
           <div>
             <img
-              src="./src/assets/me.jpg.png"
+              src="./images/me.png"
               alt="Picture"
               className="rounded-3xl md:size-fit size-2/4 mr-auto ml-auto"
             />
