@@ -8,11 +8,11 @@ const Footer = () => {
   return (
     <div className='bottom-0 flex items-center w-full text-white mt-1'>
       <div className='flex gap-4 ml-auto mr-auto mb-2'>
-        <a href="https://facebook.com" target='_blank'><Facebook/></a>
-        <a href="https://github.com" target='_blank'><Github/></a>
-        <a href="https://x.com" target='_blank'><Twitter/></a>
-        <a href="https://linkedin.com" target='_blank'><Linkedin/></a>
-        <a href="https://instagram.com" target='_blank'><Instagram/></a>
+        <a href="https://www.facebook.com/jhunewally.esparcia" target='_blank'><Facebook/></a>
+        <a href="https://github.com/jwesparcia" target='_blank'><Github/></a>
+        <a href="https://x.com/jh72588" target='_blank'><Twitter/></a>
+        <a href="https://www.linkedin.com/in/jhune-esparcia-50b838362/" target='_blank'><Linkedin/></a>
+        <a href="https://www.instagram.com/jwcesparcia__/?next=%2F" target='_blank'><Instagram/></a>
       </div>
     </div>
   )

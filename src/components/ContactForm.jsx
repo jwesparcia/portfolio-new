@@ -7,19 +7,19 @@ const ContactForm = ({name,email,message}) => {
           <div className='flex mb-3'>
              <label className='w-24 flex' htmlFor="email"><span className=' text-end  w-24 mr-3 my-auto'> {name}</span>
              </label>
-             <input type="text" className=' name="name" p-3 w-full md:w-[35rem] border-2' required/>
+             <input type="text"  name="Name" className='p-3 w-full md:w-[35rem] border-2' required/>
           </div>
 
           <div className='flex mb-3'>
              <label className='my-auto w-24 flex ' htmlFor="email"><span className='text-end mr-3  w-24  '> {email}</span>
              </label>
-             <input type="email" name="email" className=' p-3 w-full md:w-[35rem] border-2' required/>
+             <input type="email" name="Email" className=' p-3 w-full md:w-[35rem] border-2' required/>
           </div>
 
            <div className='flex mb-3'>
              <label className='my-auto w-24  flex ' htmlFor="email"><span className=' w-24 text-end mr-3 '> {message}</span>
              </label>
-             <textarea name="message" className=' p-3 w-full h-44 md:w-[35rem] border-2' required />
+             <textarea name="Message" className=' p-3 w-full h-44 md:w-[35rem] border-2' required />
           </div>
 
           <div className='border-2 w-auto ml-auto px-7 py-2 mr-auto cursor-pointer'>
