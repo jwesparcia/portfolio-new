@@ -2,10 +2,10 @@ import React from 'react'
 
 const ContactForm = ({name,email,message}) => {
   return (
-    <div className=' border-4 rounded-2xl p-5 bg-red-400 w-auto'>
+    <div className=' border-4 rounded-2xl p-5 w-auto'>
         <form action="https://formsubmit.co/jhuneesparcia1@gmail.com" method="POST" className='flex w-full flex-col'>
           <div className='flex mb-3'>
-             <label className='w-24 flex bg-red-200' htmlFor="email"><span className=' text-end  w-24 mr-3 my-auto'> {name}</span>
+             <label className='w-24 flex' htmlFor="email"><span className=' text-end  w-24 mr-3 my-auto'> {name}</span>
              </label>
              <input type="text" className=' name="name" p-3 w-full md:w-[35rem] border-2' required/>
           </div>
