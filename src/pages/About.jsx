@@ -5,13 +5,13 @@ import { SquareCode } from "lucide-react";
 import { Link } from "react-router-dom";
 const About = () => {
   return (
-    <div className="flex">
-      <div className="-red-400 w-auto ml-auto mr-auto text-left grid md:grid-cols-2 md:w-3xl  space-x-10">
-        <div className="font-bitcount pl-3 font-medium ">
-          <div className="text-2xl md:text-5xl my-10">
+    <div className="flex bg-[#242323] rounded-3xl m-5 md:m-0">
+      <div className="-red-400 w-auto ml-auto mr-auto text-left grid md:grid-cols-2 md:w-3xl  md:space-x-3">
+        <div className="font-bitcount px-4 font-medium  ">
+          <div className="text-3xl  md:text-5xl mt-10 mb-5 text-center">
             <h1>About Me</h1>
           </div>
-          <div className="mb-4 flex">
+          <div className="mb-4  flex">
             <CircleSmall className="w-12 mr-3" />
             <p className="text-[0.9rem] md:text-[1rem]">
               Hi, I’m <span className="font-bold">Jhune Wally Esparcia</span>, a
@@ -26,9 +26,9 @@ const About = () => {
               experienced in Java, C# and Python.
             </p>
           </div>
-          <div className=" w-2xs my-4 ">
+          <div className=" w-2xs my-4 flex flex-col ml-auto mr-auto items-center ">
             <div className="flex">
-              <h2>TECH STACK</h2> <SquareCode className="h-5 mt-[0.5px]" />
+              <h2>TECH STACK</h2> <SquareCode className="h-5 mt-[0.5px] " />
             </div>
             <div className="flex">
               <div className="mt-0">
@@ -43,12 +43,12 @@ const About = () => {
           </div>
 
           <div className="">
-            <Link to={"/projects"} className="flex">
+            <Link to={"/projects"} className="flex justify-center">
               <h1 className="mr-1">View my projects</h1> <MoveRight />
             </Link>
           </div>
         </div>
-        <div className=" pl-3">
+        <div className="m-5">
           <div>
             <img
               src="./images/me.png"

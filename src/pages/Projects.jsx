@@ -1,12 +1,14 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import { MoveRight } from "lucide-react";
+import { MoveLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 const Projects = () => {
   return (
     <div className="">
-      <div className="md:w-3xl w-auto mr-auto ml-auto p-4 md:p-0">
-        <div className="font-bitcount py-5 font-bold text-[2rem] md:text-5xl text-center">
+      <div className="md:w-3xl w-auto mr-auto ml-auto p-4 md:p-0 font-bitcount">
+        
+        <div className=" py-5 font-bold text-[2rem] md:text-5xl text-center">
           <h1>My Projects</h1>
         </div>
         <div className="space-y-3 mb-2">

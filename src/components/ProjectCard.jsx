@@ -9,9 +9,9 @@ const ProjectCard = ({
   githubUrl,
 }) => {
   return (
-    <div className="font-bitcount max-w-[20rem]">
-      <details className="border-2 rounded-3xl p-5   w-auto">
-        <summary className="md:text-3xl text-[1rem] cursor-pointer max-w-[20rem]">{title}</summary>
+    <div className="font-bitcount w-[20rem] md:w-3xl">
+      <details className="border-2 rounded-3xl p-5 w-auto">
+        <summary className="md:text-3xl text-[1rem] cursor-pointer ">{title}</summary>
         <div className="font-light md:text-[1rem] text-[0.8rem]">
           <div className="mt-2  w-auto">
             <p className="">{description}</p>
