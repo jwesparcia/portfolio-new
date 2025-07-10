@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   return (
     <div className="">
-      <div className="md:w-3xl w-auto mr-auto ml-auto p-4  md:p-0">
+      <div className="md:w-3xl w-auto mr-auto ml-auto p-4 md:p-0">
         <div className="font-bitcount py-5 font-bold text-[2rem] md:text-5xl text-center">
           <h1>My Projects</h1>
         </div>
@@ -50,7 +50,7 @@ const Projects = () => {
             }
             link={"N/A"}
             sourceCode={"https://github.com/jwesparcia/ContactManagement"}
-            githubUrl={"https://github.com/jwesparcia/ContactManagement"}
+            githubUrl={"https://github.com/jwesparcia/ContactManagementassaasas"}
           />
         </div>
         <div className=" p-2.5 w-2xs text-[0.9rem] ml-auto mr-auto flex justify-center font-bitcount md:text-[1.4rem] md:p-0 ">
